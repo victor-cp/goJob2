@@ -44,7 +44,7 @@ import ProfesionalPage from "./pages/propfesionalPage/ProfesionalPage";
 
 
 // Default axios
-axios.defaults.baseURL = "http://localhost:3005/";
+axios.defaults.baseURL = "https://gojob2-production.up.railway.app/";
 axios.defaults.headers.common["Authorization"] =
   "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZmlyc3ROYW1lIjoiQXoiLCJsYXN0TmFtZSI6IkFtZWZnY2EiLCJlbWFpbCI6ImZkYWZmc2ZwQGVtYWlsLmNvbSIsInVzZXIiOiJjYXAyMzMyIiwiY2l0eSI6IkR1YmFpIiwicGhvbmUiOjM0ODczNTM1LCJhZGRyZXNzIjoiQXYuIFRyb3lhIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjc3MDA5ODY5LCJleHAiOjE2Nzk2MDE4Njl9.Y8goayh2w8lbZt1qqZDq9hYwkxIIAKnw9dFo74sakUA";
 
